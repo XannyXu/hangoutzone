@@ -28,11 +28,32 @@
             a:link, a:hover, a:visited, a:active {
                 color: #5b7acf
             }
+            @media only screen and (max-width: 1010px) {
+                .class1 {
+                    display: none;
+                }
+            }
+            @media only screen and (min-width: 1010px) {
+                .class2 {
+                    display: none;
+                }
+            }
         </style>
     </head>
     <body>
         <header>
-            <table style="width: 100%; background-color: #0D1C47; padding: 30px; border-bottom: 15px solid #00000048;">
+            <table style="width: 100%; background-color: #0D1C47; padding: 5px; border-bottom: 15px solid #00000048;" class="class2">
+                <tr>
+                    <th style="width: 33%;">
+                    </th>
+                    <th style="width: 33%;">
+                        <img src="hangoutzone.png" style="width: 300px;">
+                    </th>
+                    <th style="width: 33%;">
+                    </th>
+                </tr>
+            </table>
+            <table style="width: 100%; background-color: #0D1C47; padding: 5px; border-bottom: 15px solid #00000048;" class="class1">
                 <tr>
                     <th style="width: 33%;">
                         <img src="hangoutzone.png" style="width: 200px;">
@@ -68,29 +89,29 @@
                 </th>
             </tr>
             <tr>
-                <th>
+                <th style="width: 50%;">
                     <p>
-                        <a href="https://www.youtube.com/channel/UCtU_VzKndzwwnql7Av1VV4A">XannyXu</a>
+                        <a href="https://www.youtube.com/channel/UCtU_VzKndzwwnql7Av1VV4A" target="_blank">XannyXu</a>
                         <br>
-                        <a href="https://www.youtube.com/channel/UC4m4oizPoT1W6NHwKQaz0Pw">Daezar</a>
+                        <a href="https://www.youtube.com/channel/UC4m4oizPoT1W6NHwKQaz0Pw" target="_blank">Daezar</a>
                     </p>
                 </th>
-                <th>
+                <th style="width: 50%;">
                     <p>
                         <a href="https://discord.gg/xk9kPSx6th" target="_blank">
-                            <img src="discordlogo.png" style="width: 75px">
+                            <img src="discordlogo.png" style="width: 75px;">
                         </a>
                     </p>
                 </th>
             </tr>
             <tr>
                 <th colspan="2">
-                    <img src="stradd.png">
+                    <img src="stradd.png" style="border: 10px solid #0D1C47;">
                 </th>
             </tr>
         </table>
         <footer>
-            <table style="width: 100%; background-color: #0D1C47; padding: 30px; border-top: 15px solid #00000048;">
+            <table style="width: 100%; background-color: #0D1C47; padding: 5px; border-top: 15px solid #00000048;">
                 <tr>
                     <th style="width: 33%;">
                     </th>
