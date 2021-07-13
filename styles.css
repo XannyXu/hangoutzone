@@ -1,0 +1,53 @@
+body {
+    background-color: #2b4486;
+    font-family: "trebuchet ms";
+    color: #ffffff;
+    margin: 0;
+    border-bottom: 5px;
+}
+p {
+    font-size: 25px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+a:link, a:hover, a:visited, a:active {
+    color: #5b7acf
+}
+@media only screen and (max-width: 1010px) {
+    #tableheader1 {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1011px) {
+    #tableheader2 {
+        display: none;
+    }
+}
+.tableheader {
+    background-color: #0D1C47; padding: 5px; border-bottom: 15px solid #00000048;
+}
+table {
+    width: 100%;
+}
+th {
+    width: 33%;
+}
+td {
+    width: 50%; text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#heading2-1 {
+    padding: 30px;
+}
+#tablefooter {
+    background-color: #0D1C47; padding: 5px; border-top: 15px solid #00000048;
+}
