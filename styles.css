@@ -1,53 +1,91 @@
 body {
     background-color: #2b4486;
-    font-family: "trebuchet ms";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     margin: 0;
     border-bottom: 5px;
 }
 p {
     font-size: 25px;
+    text-align: center;
 }
-h1 {
+.h1 {
     font-size: 50px;
+    font-weight: bold;
 }
-h2 {
+.h2 {
     font-size: 40px;
+    font-weight: bold;
 }
-h3 {
+.h3 {
     font-size: 30px;
+    font-weight: bold;
 }
 a:link, a:hover, a:visited, a:active {
     color: #5b7acf
 }
 @media only screen and (max-width: 1010px) {
-    #tableheader1 {
+    #header1 {
         display: none;
     }
 }
 @media only screen and (min-width: 1011px) {
-    #tableheader2 {
+    #header2 {
         display: none;
     }
 }
-.tableheader {
-    background-color: #0D1C47; padding: 5px; border-bottom: 15px solid #00000048;
+.headfoot {
+    background-color: #0D1C47;
+    border-bottom: 15px solid #00000048;
+    border-top: 15px solid #00000048;
 }
-table {
-    width: 100%;
+.headerimage {
+    height: 100px;
 }
-th {
-    width: 33%;
-}
-td {
-    width: 50%; text-align: center;
-}
-h2 {
-    text-align: center;
-}
-#heading2-1 {
+#h2 {
     padding: 30px;
 }
-#tablefooter {
-    background-color: #0D1C47; padding: 5px; border-top: 15px solid #00000048;
+[class*="col-"] {
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
