@@ -118,17 +118,3 @@ embed {
 #mascot {
     padding-top: 75px;
 }
-@font-face {
-    font-family: consolas;
-    src: url(consola.TTF);
-}
-@font-face {
-    font-family: consolas;
-    src: url(consolab.TTF);
-    font-weight: bold;
-}
-@font-face {
-    font-family: consolas;
-    src: url(consolai.ttf);
-    font-style: italic;
-}
